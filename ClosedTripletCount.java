@@ -34,14 +34,41 @@ public class ClosedTripletCount extends Configured implements Tool {
             ArrayList<Long> valuesCopy = new ArrayList<Long>();
             for (LongWritable u : values) {
                 valuesCopy.add(u.get());
-                context.write(new Text("$"), new Text(key.toString() + ',' + u.toString()));
+                context.write(new Text(key.toString() + ',' + u.toString()), new Text("$"));
             }
             for (int u = 0; u < valuesCopy.size(); ++u) {
                 for (int w = 0; w < valuesCopy.size(); ++w) {
                     if (valuesCopy.get(u) < valuesCopy.get(w)) {
-                        context.write(new Text(key.toString()), new Text(valuesCopy.get(u).toString() + ',' + valuesCopy.get(w).toString()));
+                        context.write(new Text(valuesCopy.get(u).toString() + ',' + valuesCopy.get(w).toString()), new Text(key.toString()));
                     }
                 }
+            }
+        }
+    }
+
+    public static class SecondMapper extends Mapper<Text, Text, Text, Text> {
+        public void map(Text key, Text value, Context context) throws IOException, InterruptedException {
+            context.write(key, value);
+        }
+    }
+
+    public static class SecondReducer extends Reducer<Text, Text, LongWriteable, LongWritable> {
+        private void reduce(Text key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
+            LinkedHashSet<String> valueSet = new LinkedHashSet<String>();
+            for (Text value: values) {
+                valueSet.add(value);
+            }
+            long count = 0;
+            bool valid = false;
+            for (String value: valueSet) {
+                if (!value.equals("$")) {
+                    ++count;
+                } else {
+                    valid = true;
+                }
+            }
+            if (valid) {
+                context.write(new LongWritable(0), new LongWriteable(count));
             }
         }
     }
@@ -62,6 +89,22 @@ public class ClosedTripletCount extends Configured implements Tool {
 
         FileInputFormat.addInputPath(jobOne, new Path(args[0]));
         FileOutputFormat.setOutputPath(jobOne, new Path("/user/wennyyustalim/temp/first-mapreduce"));
+
+        Job jobTwo = new Job(getConf());
+        jobTwo.setJobName("mapreduce-two");
+
+        jobTwo.setMapOutputKeyClass(Text.class);
+        jobTwo.setMapOutputValueClass(LongWritable.class);
+
+        jobTwo.setOutputKeyClass(LongWritable.class);
+        jobTwo.setOutputValueClass(LongWritable.class);
+
+        jobTwo.setJarByClass(ClosedTripletCount.class);
+        jobTwo.setMapperClass(SecondMapper.class);
+        jobTwo.setReducerClass(SecondReducer.class);
+
+        FileInputFormat.addInputPath(jobTwo, new Path("/user/wennyyustalim/temp/first-mapreduce"));
+        FileOutputFormat.setOutputPath(jobTwo, new Path("/user/wennyyustalimn/temp/second-mapreduce"));
 
         int ret = jobOne.waitForCompletion(true) ? 0 : 1;
 

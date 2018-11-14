@@ -61,7 +61,6 @@ public class TriangleCount extends Configured implements Tool {
   }
 
   public static class MapperTextLongWritable extends Mapper<LongWritable, Text, Text, LongWritable> {
-
     public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
       String[] str = value.toString().split("\\s+");
       if (str.length > 1) {
