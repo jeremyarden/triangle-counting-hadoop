@@ -11,8 +11,6 @@ import org.apache.hadoop.mapreduce.lib.input.*;
 import org.apache.hadoop.mapreduce.lib.output.*;
 import org.apache.hadoop.util.*;
 
-import javafx.scene.text.Text;
-
 public class ClosedTripletCount extends Configured implements Tool {
     public static class FirstMapper extends Mapper<LongWritable, Text, LongWritable, LongWritable> {
         public void map(LongWritable k, Text text, Context context) throws IOException, InterruptedException {
