@@ -33,14 +33,14 @@ public class ClosedTripletCount extends Configured implements Tool {
         Text rKey = new Text();
         Text rValue = new Text();
 
-        public void reduce(LongWriteable key, Iterable<LongWritable> values, Context context)
+        public void reduce(LongWritable key, Iterable<LongWritable> values, Context context)
                 throws IOException, InterruptedException {
-            for (LongWriteable u : values) {
+            for (LongWritable u : values) {
                 rKey.set('$');
                 rValue.set(key.toString() + ',' + Long.toString(u));
                 context.write(rKey, rValue);
 
-                for (LongWriteable w : values) {
+                for (LongWritable w : values) {
                     if (u != w) {
                         rKey.set(key.toString());
                         rValue.set(Long.toString(u) + ',' + Long.toString(w));
