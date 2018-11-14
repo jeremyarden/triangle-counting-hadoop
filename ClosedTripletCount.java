@@ -81,7 +81,7 @@ public class ClosedTripletCount extends Configured implements Tool {
         public void map(LongWritable key, Text text, Context context) throws IOException, InterruptedException {
             String[] pair = text.toString().split("\\s+");
             if (pair.length > 1) {
-                context.write(new LongWritable(0), new LongWritable(Long.parseLong(pair[1])));
+                context.write(new LongWritable(-1), new LongWritable(Long.parseLong(pair[1])));
             }
         }
     }
@@ -114,7 +114,7 @@ public class ClosedTripletCount extends Configured implements Tool {
         FileOutputFormat.setOutputPath(jobOne, new Path("/user/wennyyustalim/temp/first-mapreduce"));
 
         Job jobTwo = new Job(getConf());
-        jobTwo.setJobName("mapreduce-two");
+        jobTwo.setJobName("second-mapreduce");
 
         jobTwo.setMapOutputKeyClass(Text.class);
         jobTwo.setMapOutputValueClass(Text.class);
@@ -130,7 +130,7 @@ public class ClosedTripletCount extends Configured implements Tool {
         FileOutputFormat.setOutputPath(jobTwo, new Path("/user/wennyyustalim/temp/second-mapreduce"));
 
         Job jobThree = new Job(getConf());
-        jobThree.setJobName("mapreduce-three");
+        jobThree.setJobName("third-mapreduce");
         jobThree.setNumReduceTasks(1);
 
         jobThree.setMapOutputKeyClass(LongWritable.class);
