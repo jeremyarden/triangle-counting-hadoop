@@ -133,11 +133,11 @@ public class ClosedTripletCount extends Configured implements Tool {
         jobThree.setJobName("mapreduce-three");
         jobThree.setNumReduceTasks(1);
 
-        jobThree.setMapOutputKeyClass(Text.class);
+        jobThree.setMapOutputKeyClass(LongWritable.class);
         jobThree.setMapOutputValueClass(LongWritable.class);
 
-        jobThree.setOutputKeyClass(LongWritable.class);
-        jobThree.setOutputValueClass(NullWritable.class);
+        jobThree.setOutputKeyClass(Text.class);
+        jobThree.setOutputValueClass(LongWritable.class);
 
         jobThree.setJarByClass(ClosedTripletCount.class);
         jobThree.setMapperClass(ThirdMapper.class);
