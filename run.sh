@@ -1,6 +1,7 @@
 #!/bin/bash
 
 hdfs dfs -rm -r -f /user/wennyyustalim/output
+hdfs dfs -rm -r -f /user/wennyyustalim/temp/first-mapreduce
 rm triplet.jar
 rm ClosedTriplet*.class
 
