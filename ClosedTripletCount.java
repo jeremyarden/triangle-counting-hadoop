@@ -28,4 +28,31 @@ public class ClosedTripletCount extends Configured implements Tool {
             }
         }
     }
+
+    public int run(String[] args) throws Exception {
+        Job jobOne = new Job(getConf());
+        jobOne.setJobName("first-mapreduce");
+
+        jobOne.setMapOutputKeyClass(LongWritable.class);
+        jobOne.setMapOutputValueClass(LongWritable.class);
+
+        jobOne.setOutputKeyClass(Text.class);
+        jobOne.setOutputValueClass(Text.class);
+
+        jobOne.setJarByClass(ClosedTripletCount.class);
+        jobOne.setMapperClass(FirstMapper.class);
+        jobOne.setReducerClass(FirstReducer.class);
+
+        FileInputFormat.addInputPath(jobOne, new Path(args[0]));
+        FileOutputFormat.setOutputPath(jobOne, new Path("/user/wennyyustalim/temp/first-mapreduce"));
+
+        int ret = jobOne.waitForCompletion(true) ? 0 : 1;
+
+        return ret;
+    }
+
+    public static void main(String[] args) throws Exception {
+        int res = ToolRunner.run(new Configuration(), new ClosedTripletCount(), args);
+        System.exit(res);
+    }
 }
