@@ -38,7 +38,8 @@ public class ClosedTripletCount extends Configured implements Tool {
             }
             for (int u = 0; u < valuesCopy.size(); ++u) {
                 for (int w = 0; w < valuesCopy.size(); ++w) {
-                    if (valuesCopy.get(u) < valuesCopy.get(w)) {
+                    int compare = valuesCopy.get(u).compareTo(valuesCopy.get(w));
+                    if (compare < 0) {
                         context.write(new Text(valuesCopy.get(u).toString() + ',' + valuesCopy.get(w).toString()), new Text(key.toString()));
                     }
                 }
@@ -80,7 +81,7 @@ public class ClosedTripletCount extends Configured implements Tool {
         public void map(LongWritable key, Text text, Context context) throws IOException, InterruptedException {
             String[] pair = text.toString().split("\\s+");
             if (pair.length > 1) {
-                context.write(new LongWritable(0), new LongWritable(Long.parseLong(str[1])));
+                context.write(new LongWritable(0), new LongWritable(Long.parseLong(pair[1])));
             }
         }
     }
