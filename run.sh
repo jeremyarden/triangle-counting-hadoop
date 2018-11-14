@@ -2,6 +2,7 @@
 
 hdfs dfs -rm -r -f /user/wennyyustalim/output
 hdfs dfs -rm -r -f /user/wennyyustalim/temp/first-mapreduce
+hdfs dfs -rm -r -f /user/wennyyustalim/temp/second-mapreduce
 rm triplet.jar
 rm ClosedTriplet*.class
 
