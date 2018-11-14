@@ -11,6 +11,8 @@ import org.apache.hadoop.mapreduce.lib.input.*;
 import org.apache.hadoop.mapreduce.lib.output.*;
 import org.apache.hadoop.util.*;
 
+import javafx.scene.text.Text;
+
 public class ClosedTripletCount extends Configured implements Tool {
     public static class FirstMapper extends Mapper<LongWritable, Text, LongWritable, LongWritable> {
         public void map(LongWritable k, Text text, Context context) throws IOException, InterruptedException {
@@ -29,22 +31,19 @@ public class ClosedTripletCount extends Configured implements Tool {
     }
 
     public static class FirstReducer extends Reducer<LongWritable, LongWritable, Text, Text> {
-        Text rKey = new Text();
-        Text rValue = new Text();
-
         public void reduce(LongWritable key, Iterable<LongWritable> values, Context context)
                 throws IOException, InterruptedException {
             for (LongWritable u : values) {
                 // rKey.set("$");
                 // rValue.set(key.toString() + ',' + u.toString());
-                context.write(new Text().set("$"), new Text().set(key.toString() + ',' + u.toString()));
+                context.write(new Text("$"), new Text(key.toString() + ',' + u.toString()));
 
                 for (LongWritable w : values) {
                     if (u != w) {
                         // rKey.set(key.toString());
                         // rValue.set(u.toString() + ',' + w.toString());
-                        context.write(new Text().set(key.toString()),
-                                new Text().set(u.toString() + ',' + w.toString()));
+                        context.write(new Text(key.toString()),
+                                new Text(set(u.toString() + ',' + w.toString()));
                     }
                 }
             }
