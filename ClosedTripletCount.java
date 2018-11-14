@@ -31,7 +31,7 @@ public class ClosedTripletCount extends Configured implements Tool {
     public static class FirstReducer extends Reducer<LongWritable, LongWritable, Text, Text> {
         public void reduce(LongWritable key, Iterable<LongWritable> values, Context context)
                 throws IOException, InterruptedException {
-            List<LongWritable> valuesCopy = new ArrayList<LongWritable>();
+            ArrrayList<LongWritable> valuesCopy = new ArrayList<LongWritable>();
             for (LongWritable u : values) {
                 valuesCopy.add(u);
                 context.write(new Text("$"), new Text(key.toString() + ',' + u.toString()));
