@@ -81,7 +81,7 @@ public class ClosedTripletCount extends Configured implements Tool {
         public void map(LongWritable key, Text text, Context context) throws IOException, InterruptedException {
             String[] pair = text.toString().split("\\s+");
             if (pair.length > 1) {
-                context.write(new LongWritable(-1), new LongWritable(Long.parseLong(pair[1])));
+                context.write(new LongWritable(0), new LongWritable(Long.parseLong(pair[1])));
             }
         }
     }
