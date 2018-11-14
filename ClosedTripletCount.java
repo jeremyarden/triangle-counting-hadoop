@@ -13,7 +13,7 @@ import org.apache.hadoop.util.*;
 
 public class ClosedTripletCount extends Configured implements Tool {
     public static class FirstMapper extends Mapper<LongWritable, Text, LongWritable, LongWritable> {
-        public void map(LongWritable k, Text text, Context context) throws IOException, InterruptedException {
+        public void map(LongWritable key, Text text, Context context) throws IOException, InterruptedException {
             String[] pair = text.toString().split("\\s+");
             if (pair.length > 1) { // if edge is valid
                 long u = Long.parseLong(pair[0]);
@@ -46,10 +46,10 @@ public class ClosedTripletCount extends Configured implements Tool {
         }
     }
 
-    public static class SecondMapper extends Mapper<Text, Text, Text, Text> {
-        public void map(Text key, Text value, Context context) throws IOException, InterruptedException {
-            String[] pair = value.toString().split("\\s+");
-            if (pair.length > 1) {
+    public static class SecondMapper extends Mapper<LongWritable, Text, Text, Text> {
+        public void map(LongWritable key, Text text, Context context) throws IOException, InterruptedException {
+            String[] pair = text.toString().split("\\s+");
+            if (text.length > 1) {
                 context.write(new Text(pair[0]), new Text(pair[1]));
             }
         }
