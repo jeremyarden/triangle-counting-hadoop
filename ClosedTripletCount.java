@@ -76,6 +76,25 @@ public class ClosedTripletCount extends Configured implements Tool {
         }
     }
 
+    public static class ThirdMapper extends Mapper<LongWritable, Text, LongWritable, LongWritable> {
+        public void map(LongWritable key, Text text, Context context) throws IOException, InterruptedException {
+            String[] pair = text.toString().split("\\s+");
+            if (pair.length > 1) {
+                context.write(new LongWritable(0), new LongWritable(Long.parseLong(str[1])));
+            }
+        }
+    }
+
+    public static ThirdReducer extends Reducer<LongWritable, LongWritable, Text, LongWritable> {
+        public void reduce(Text key, Iterable<LongWritable> values, Context context) throws IOException, InterruptedException {
+            long sum = 0;
+            for (LongWritable value : values) {
+                sum += value.get();
+            }
+            context.write(new Text("Result"), new LongWritable(sum));
+        }
+    }
+
     public int run(String[] args) throws Exception {
         Job jobOne = new Job(getConf());
         jobOne.setJobName("first-mapreduce");
@@ -109,9 +128,28 @@ public class ClosedTripletCount extends Configured implements Tool {
         FileInputFormat.addInputPath(jobTwo, new Path("/user/wennyyustalim/temp/first-mapreduce"));
         FileOutputFormat.setOutputPath(jobTwo, new Path("/user/wennyyustalim/temp/second-mapreduce"));
 
+        Job jobThree = new Job(getConf());
+        jobThree.setJobName("mapreduce-three");
+        jobThree.setNumReduceTasks(1);
+
+        jobThree.setMapOutputKeyClass(Text.class);
+        jobThree.setMapOutputValueClass(LongWritable.class);
+
+        jobThree.setOutputKeyClass(LongWritable.class);
+        jobThree.setOutputValueClass(NullWritable.class);
+
+        jobThree.setJarByClass(TriangleCount.class);
+        jobThree.setMapperClass(MapperTextLongWritable.class);
+        jobThree.setReducerClass(ThirdReducer.class);
+
+        FileInputFormat.addInputPath(jobThree, new Path("/user/rayandrew/temp/mapreduce-two"));
+        FileOutputFormat.setOutputPath(jobThree, new Path(args[1]));
+
         int ret = jobOne.waitForCompletion(true) ? 0 : 1;
         if (ret == 0)
             ret = jobTwo.waitForCompletion(true) ? 0 : 1;
+        if (ret == 0)
+            ret = jobThree.waitForCompletion(true) ? 0 : 1;
 
         return ret;
     }
