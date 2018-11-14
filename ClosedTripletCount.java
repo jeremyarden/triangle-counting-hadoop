@@ -53,7 +53,7 @@ public class ClosedTripletCount extends Configured implements Tool {
     }
 
     public static class SecondReducer extends Reducer<Text, Text, LongWritable, LongWritable> {
-        private void reduce(Text key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
+        public void reduce(Text key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
             LinkedHashSet<String> valueSet = new LinkedHashSet<String>();
             for (Text value: values) {
                 valueSet.add(value.toString());
