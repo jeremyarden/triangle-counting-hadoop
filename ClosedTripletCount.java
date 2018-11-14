@@ -107,6 +107,8 @@ public class ClosedTripletCount extends Configured implements Tool {
         FileOutputFormat.setOutputPath(jobTwo, new Path("/user/wennyyustalimn/temp/second-mapreduce"));
 
         int ret = jobOne.waitForCompletion(true) ? 0 : 1;
+        if (ret == 0)
+            ret = jobTwo.waitForCompletion(true) ? 0 : 1;
 
         return ret;
     }
