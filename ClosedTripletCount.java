@@ -85,7 +85,7 @@ public class ClosedTripletCount extends Configured implements Tool {
         }
     }
 
-    public static ThirdReducer extends Reducer<LongWritable, LongWritable, Text, LongWritable> {
+    public static class ThirdReducer extends Reducer<LongWritable, LongWritable, Text, LongWritable> {
         public void reduce(Text key, Iterable<LongWritable> values, Context context) throws IOException, InterruptedException {
             long sum = 0;
             for (LongWritable value : values) {
