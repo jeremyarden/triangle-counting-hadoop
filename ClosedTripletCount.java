@@ -52,14 +52,14 @@ public class ClosedTripletCount extends Configured implements Tool {
         }
     }
 
-    public static class SecondReducer extends Reducer<Text, Text, LongWriteable, LongWritable> {
+    public static class SecondReducer extends Reducer<Text, Text, LongWritable, LongWritable> {
         private void reduce(Text key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
             LinkedHashSet<String> valueSet = new LinkedHashSet<String>();
             for (Text value: values) {
-                valueSet.add(value);
+                valueSet.add(value.toString());
             }
             long count = 0;
-            bool valid = false;
+            boolean valid = false;
             for (String value: valueSet) {
                 if (!value.equals("$")) {
                     ++count;
@@ -68,7 +68,7 @@ public class ClosedTripletCount extends Configured implements Tool {
                 }
             }
             if (valid) {
-                context.write(new LongWritable(0), new LongWriteable(count));
+                context.write(new LongWritable(0), new LongWritable(count));
             }
         }
     }
