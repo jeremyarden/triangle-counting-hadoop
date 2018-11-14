@@ -24,7 +24,6 @@ public class ClosedTripletCount extends Configured implements Tool {
                 } else {
                     context.write(new LongWritable(v), new LongWritable(u));
                 }
-                System.out.println(u + " " + v);
             }
         }
     }
@@ -36,15 +35,16 @@ public class ClosedTripletCount extends Configured implements Tool {
         public void reduce(LongWritable key, Iterable<LongWritable> values, Context context)
                 throws IOException, InterruptedException {
             for (LongWritable u : values) {
-                rKey.set("$");
-                rValue.set(key.toString() + ',' + u.toString());
-                context.write(rKey, rValue);
+                // rKey.set("$");
+                // rValue.set(key.toString() + ',' + u.toString());
+                context.write(new Text().set("$"), new Text().set(key.toString() + ',' + u.toString()));
 
                 for (LongWritable w : values) {
                     if (u != w) {
-                        rKey.set(key.toString());
-                        rValue.set(u.toString() + ',' + w.toString());
-                        context.write(rKey, rValue);
+                        // rKey.set(key.toString());
+                        // rValue.set(u.toString() + ',' + w.toString());
+                        context.write(new Text().set(key.toString()),
+                                new Text().set(u.toString() + ',' + w.toString()));
                     }
                 }
             }
