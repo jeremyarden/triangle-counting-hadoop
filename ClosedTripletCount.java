@@ -38,8 +38,8 @@ public class ClosedTripletCount extends Configured implements Tool {
             }
             for (long u = 0; u < valuesCopy.size(); ++u) {
                 for (long w = 0; w < valuesCopy.size(); ++w) {
-                    if (valuesCopy[u] < valuesCopy[w]) {
-                        context.write(new Text(key.toString()), new Text(valuesCopy[u].toString() + ',' + valuesCopy[w].toString()));
+                    if (valuesCopy.get(u) < valuesCopy.get(w)) {
+                        context.write(new Text(key.toString()), new Text(valuesCopy.get(u).toString() + ',' + valuesCopy.get(w).toString()));
                     }
                 }
             }
