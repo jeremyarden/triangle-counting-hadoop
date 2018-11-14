@@ -2,7 +2,7 @@
 
 hdfs dfs -rm -r -f /user/wennyyustalim/output
 rm triplet.jar
-rm ClosedTripletCount*.class
+rm ClosedTriplet*.class
 
 hadoop com.sun.tools.javac.Main ClosedTripletCount.java
 jar cf triplet.jar ClosedTripletCount*.class
