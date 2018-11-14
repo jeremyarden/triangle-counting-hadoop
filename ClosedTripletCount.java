@@ -42,8 +42,7 @@ public class ClosedTripletCount extends Configured implements Tool {
                     if (u != w) {
                         // rKey.set(key.toString());
                         // rValue.set(u.toString() + ',' + w.toString());
-                        context.write(new Text(key.toString()),
-                                new Text(set(u.toString() + ',' + w.toString()));
+                        context.write(new Text(key.toString()), new Text(u.toString() + ',' + w.toString()));
                     }
                 }
             }
