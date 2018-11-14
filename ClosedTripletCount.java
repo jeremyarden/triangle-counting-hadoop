@@ -11,8 +11,10 @@ import org.apache.hadoop.mapreduce.lib.input.*;
 import org.apache.hadoop.mapreduce.lib.output.*;
 import org.apache.hadoop.util.*;
 
+import javafx.scene.text.Text;
+
 public class ClosedTripletCount extends Configured implements Tool {
-    public static class ParseNodesMapper extends Mapper<LongWritable, Text, LongWritable, LongWritable> {
+    public static class FirstMapper extends Mapper<LongWritable, Text, LongWritable, LongWritable> {
         public void map(LongWritable k, Text text, Context context) throws IOException, InterruptedException {
             String[] pair = text.toString().split("\\s+");
             if (pair.length > 1) { // if edge is valid
@@ -25,6 +27,28 @@ public class ClosedTripletCount extends Configured implements Tool {
                     context.write(new LongWritable(v), new LongWritable(u));
                 }
                 System.out.println(u + " " + v);
+            }
+        }
+    }
+
+    public static class FirstReducer extends Reducer<LongWritable, LongWriteable, Text, Text> {
+        Text rKey = new Text();
+        Text rValue = new Text();
+
+        public void reduce(LongWriteable key, Iterable<LongWritable> values, Context context)
+                throws IOException, InterruptedException {
+            for (LongWriteable u : values) {
+                rKey.set('$');
+                rValue.set(key.toString() + ',' + Long.toString(u));
+                context.write(rKey, rValue);
+
+                for (LongWriteable w : values) {
+                    if (u != w) {
+                        rKey.set(key.toString());
+                        rValue.set(Long.toString(u) + ',' + Long.toString(w));
+                        contextWrite(rKey, rValue);
+                    }
+                }
             }
         }
     }
