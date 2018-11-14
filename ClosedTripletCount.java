@@ -29,7 +29,7 @@ public class ClosedTripletCount extends Configured implements Tool {
         }
     }
 
-    public static class FirstReducer extends Reducer<LongWritable, LongWriteable, Text, Text> {
+    public static class FirstReducer extends Reducer<LongWritable, LongWritable, Text, Text> {
         Text rKey = new Text();
         Text rValue = new Text();
 
