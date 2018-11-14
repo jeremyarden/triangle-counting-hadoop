@@ -48,7 +48,10 @@ public class ClosedTripletCount extends Configured implements Tool {
 
     public static class SecondMapper extends Mapper<Text, Text, Text, Text> {
         public void map(Text key, Text value, Context context) throws IOException, InterruptedException {
-            context.write(key, value);
+            String[] pair = value.toString().split("\\s+");
+            if (pair.length > 1) {
+                context.write(new Text(pair[0]), new Text(pair[1]));
+            }
         }
     }
 
