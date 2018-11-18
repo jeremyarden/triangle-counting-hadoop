@@ -37,7 +37,7 @@ public class ClosedTripletCount extends Configured implements Tool {
                 context.write(new Text(key.toString() + ',' + u.toString()), new Text("$"));
             }
             for (int u = 0; u < valuesCopy.size(); ++u) {
-                for (int w = 0; w < valuesCopy.size(); ++w) {
+                for (int w = u; w < valuesCopy.size(); ++w) {
                     int compare = valuesCopy.get(u).compareTo(valuesCopy.get(w));
                     if (compare < 0) {
                         context.write(new Text(valuesCopy.get(u).toString() + ',' + valuesCopy.get(w).toString()), new Text(key.toString()));
