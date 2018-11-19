@@ -1,0 +1,342 @@
+g13515002@cluster-hadoop-wenny-m:~/pat-hadoop$ ./run.sh
+18/11/15 03:17:14 INFO gcs.GoogleHadoopFileSystemBase: GHFS version: 1.6.10-hadoop2
+Deleted /user/wennyyustalim/output
+18/11/15 03:17:17 INFO gcs.GoogleHadoopFileSystemBase: GHFS version: 1.6.10-hadoop2
+Deleted /user/wennyyustalim/temp/first-mapreduce
+18/11/15 03:17:21 INFO gcs.GoogleHadoopFileSystemBase: GHFS version: 1.6.10-hadoop2
+Deleted /user/wennyyustalim/temp/second-mapreduce
+Note: ClosedTripletCount.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+18/11/15 03:17:28 INFO gcs.GoogleHadoopFileSystemBase: GHFS version: 1.6.10-hadoop2
+18/11/15 03:17:29 INFO client.RMProxy: Connecting to ResourceManager at cluster-hadoop-wenny-m/10.140.0.2:8032
+18/11/15 03:17:30 INFO input.FileInputFormat: Total input files to process : 1
+18/11/15 03:17:30 INFO mapreduce.JobSubmitter: number of splits:195
+18/11/15 03:17:31 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1542174845531_0041
+18/11/15 03:17:31 INFO impl.YarnClientImpl: Submitted application application_1542174845531_0041
+18/11/15 03:17:31 INFO mapreduce.Job: The url to track the job: http://cluster-hadoop-wenny-m:8088/proxy/application_1542174845531_0041/
+18/11/15 03:17:31 INFO mapreduce.Job: Running job: job_1542174845531_0041
+18/11/15 03:17:40 INFO mapreduce.Job: Job job_1542174845531_0041 running in uber mode : false
+18/11/15 03:17:40 INFO mapreduce.Job:  map 0% reduce 0%
+18/11/15 03:18:04 INFO mapreduce.Job:  map 1% reduce 0%
+18/11/15 03:18:11 INFO mapreduce.Job:  map 2% reduce 0%
+18/11/15 03:18:25 INFO mapreduce.Job:  map 3% reduce 0%
+18/11/15 03:18:46 INFO mapreduce.Job:  map 4% reduce 0%
+18/11/15 03:18:52 INFO mapreduce.Job:  map 5% reduce 0%
+18/11/15 03:19:14 INFO mapreduce.Job:  map 6% reduce 0%
+18/11/15 03:19:26 INFO mapreduce.Job:  map 7% reduce 0%
+18/11/15 03:19:38 INFO mapreduce.Job:  map 8% reduce 0%
+18/11/15 03:19:56 INFO mapreduce.Job:  map 9% reduce 0%
+18/11/15 03:20:19 INFO mapreduce.Job:  map 10% reduce 0%
+18/11/15 03:20:25 INFO mapreduce.Job:  map 11% reduce 0%
+18/11/15 03:20:36 INFO mapreduce.Job:  map 12% reduce 0%
+18/11/15 03:21:01 INFO mapreduce.Job:  map 13% reduce 0%
+18/11/15 03:21:08 INFO mapreduce.Job:  map 14% reduce 0%
+18/11/15 03:21:28 INFO mapreduce.Job:  map 15% reduce 0%
+18/11/15 03:21:40 INFO mapreduce.Job:  map 16% reduce 0%
+18/11/15 03:21:52 INFO mapreduce.Job:  map 17% reduce 0%
+18/11/15 03:22:10 INFO mapreduce.Job:  map 18% reduce 0%
+18/11/15 03:22:31 INFO mapreduce.Job:  map 19% reduce 0%
+18/11/15 03:22:41 INFO mapreduce.Job:  map 20% reduce 0%
+18/11/15 03:22:49 INFO mapreduce.Job:  map 21% reduce 0%
+18/11/15 03:23:07 INFO mapreduce.Job:  map 22% reduce 0%
+18/11/15 03:23:23 INFO mapreduce.Job:  map 23% reduce 0%
+18/11/15 03:23:46 INFO mapreduce.Job:  map 24% reduce 0%
+18/11/15 03:23:57 INFO mapreduce.Job:  map 25% reduce 0%
+18/11/15 03:24:07 INFO mapreduce.Job:  map 26% reduce 0%
+18/11/15 03:24:28 INFO mapreduce.Job:  map 27% reduce 0%
+18/11/15 03:24:46 INFO mapreduce.Job:  map 28% reduce 0%
+18/11/15 03:25:00 INFO mapreduce.Job:  map 29% reduce 0%
+18/11/15 03:25:11 INFO mapreduce.Job:  map 30% reduce 0%
+18/11/15 03:25:23 INFO mapreduce.Job:  map 31% reduce 0%
+18/11/15 03:25:44 INFO mapreduce.Job:  map 32% reduce 0%
+18/11/15 03:26:03 INFO mapreduce.Job:  map 33% reduce 0%
+18/11/15 03:26:15 INFO mapreduce.Job:  map 34% reduce 0%
+18/11/15 03:26:27 INFO mapreduce.Job:  map 35% reduce 0%
+18/11/15 03:26:42 INFO mapreduce.Job:  map 36% reduce 0%
+18/11/15 03:27:06 INFO mapreduce.Job:  map 37% reduce 0%
+18/11/15 03:27:17 INFO mapreduce.Job:  map 38% reduce 0%
+18/11/15 03:27:33 INFO mapreduce.Job:  map 39% reduce 0%
+18/11/15 03:27:46 INFO mapreduce.Job:  map 40% reduce 0%
+18/11/15 03:28:03 INFO mapreduce.Job:  map 41% reduce 0%
+18/11/15 03:28:21 INFO mapreduce.Job:  map 42% reduce 0%
+18/11/15 03:28:33 INFO mapreduce.Job:  map 43% reduce 0%
+18/11/15 03:28:45 INFO mapreduce.Job:  map 44% reduce 0%
+18/11/15 03:29:02 INFO mapreduce.Job:  map 45% reduce 0%
+18/11/15 03:29:17 INFO mapreduce.Job:  map 46% reduce 0%
+18/11/15 03:29:37 INFO mapreduce.Job:  map 47% reduce 0%
+18/11/15 03:29:50 INFO mapreduce.Job:  map 48% reduce 0%
+18/11/15 03:30:07 INFO mapreduce.Job:  map 49% reduce 0%
+18/11/15 03:30:24 INFO mapreduce.Job:  map 50% reduce 0%
+18/11/15 03:30:44 INFO mapreduce.Job:  map 51% reduce 0%
+18/11/15 03:30:57 INFO mapreduce.Job:  map 52% reduce 0%
+18/11/15 03:31:10 INFO mapreduce.Job:  map 53% reduce 0%
+18/11/15 03:31:28 INFO mapreduce.Job:  map 54% reduce 0%
+18/11/15 03:31:42 INFO mapreduce.Job:  map 55% reduce 0%
+18/11/15 03:32:01 INFO mapreduce.Job:  map 56% reduce 0%
+18/11/15 03:32:14 INFO mapreduce.Job:  map 57% reduce 0%
+18/11/15 03:32:33 INFO mapreduce.Job:  map 58% reduce 0%
+18/11/15 03:32:50 INFO mapreduce.Job:  map 59% reduce 0%
+18/11/15 03:33:04 INFO mapreduce.Job:  map 60% reduce 0%
+18/11/15 03:33:24 INFO mapreduce.Job:  map 61% reduce 0%
+18/11/15 03:33:41 INFO mapreduce.Job:  map 62% reduce 0%
+18/11/15 03:33:56 INFO mapreduce.Job:  map 63% reduce 0%
+18/11/15 03:34:12 INFO mapreduce.Job:  map 64% reduce 0%
+18/11/15 03:34:31 INFO mapreduce.Job:  map 65% reduce 0%
+18/11/15 03:34:45 INFO mapreduce.Job:  map 66% reduce 0%
+18/11/15 03:35:03 INFO mapreduce.Job:  map 67% reduce 0%
+18/11/15 03:35:18 INFO mapreduce.Job:  map 68% reduce 0%
+18/11/15 03:35:36 INFO mapreduce.Job:  map 69% reduce 0%
+18/11/15 03:35:54 INFO mapreduce.Job:  map 70% reduce 0%
+18/11/15 03:36:10 INFO mapreduce.Job:  map 71% reduce 0%
+18/11/15 03:36:28 INFO mapreduce.Job:  map 72% reduce 0%
+18/11/15 03:36:48 INFO mapreduce.Job:  map 73% reduce 0%
+18/11/15 03:37:08 INFO mapreduce.Job:  map 74% reduce 0%
+18/11/15 03:37:20 INFO mapreduce.Job:  map 75% reduce 0%
+18/11/15 03:37:36 INFO mapreduce.Job:  map 76% reduce 0%
+18/11/15 03:37:58 INFO mapreduce.Job:  map 77% reduce 0%
+18/11/15 03:38:15 INFO mapreduce.Job:  map 78% reduce 0%
+18/11/15 03:38:29 INFO mapreduce.Job:  map 79% reduce 0%
+18/11/15 03:38:45 INFO mapreduce.Job:  map 80% reduce 0%
+18/11/15 03:39:07 INFO mapreduce.Job:  map 81% reduce 0%
+18/11/15 03:39:21 INFO mapreduce.Job:  map 82% reduce 0%
+18/11/15 03:39:44 INFO mapreduce.Job:  map 83% reduce 0%
+18/11/15 03:39:56 INFO mapreduce.Job:  map 84% reduce 0%
+18/11/15 03:40:10 INFO mapreduce.Job:  map 85% reduce 0%
+18/11/15 03:40:35 INFO mapreduce.Job:  map 86% reduce 0%
+18/11/15 03:40:54 INFO mapreduce.Job:  map 87% reduce 0%
+18/11/15 03:41:09 INFO mapreduce.Job:  map 88% reduce 0%
+18/11/15 03:41:24 INFO mapreduce.Job:  map 89% reduce 0%
+18/11/15 03:41:43 INFO mapreduce.Job:  map 90% reduce 0%
+18/11/15 03:41:59 INFO mapreduce.Job:  map 91% reduce 0%
+18/11/15 03:42:21 INFO mapreduce.Job:  map 92% reduce 0%
+18/11/15 03:42:38 INFO mapreduce.Job:  map 93% reduce 0%
+18/11/15 03:42:50 INFO mapreduce.Job:  map 94% reduce 0%
+18/11/15 03:43:15 INFO mapreduce.Job:  map 95% reduce 0%
+18/11/15 03:43:36 INFO mapreduce.Job:  map 96% reduce 0%
+18/11/15 03:43:49 INFO mapreduce.Job:  map 97% reduce 0%
+18/11/15 03:44:07 INFO mapreduce.Job:  map 98% reduce 0%
+18/11/15 03:44:31 INFO mapreduce.Job:  map 98% reduce 3%
+18/11/15 03:44:36 INFO mapreduce.Job:  map 99% reduce 3%
+18/11/15 03:44:42 INFO mapreduce.Job:  map 99% reduce 4%
+18/11/15 03:45:01 INFO mapreduce.Job:  map 99% reduce 5%
+18/11/15 03:45:02 INFO mapreduce.Job:  map 99% reduce 7%
+18/11/15 03:45:12 INFO mapreduce.Job:  map 99% reduce 8%
+18/11/15 03:45:14 INFO mapreduce.Job:  map 100% reduce 8%
+18/11/15 03:45:25 INFO mapreduce.Job:  map 100% reduce 9%
+18/11/15 03:45:28 INFO mapreduce.Job:  map 100% reduce 10%
+18/11/15 03:45:29 INFO mapreduce.Job:  map 100% reduce 11%
+18/11/15 03:45:31 INFO mapreduce.Job:  map 100% reduce 12%
+18/11/15 03:45:34 INFO mapreduce.Job:  map 100% reduce 13%
+18/11/15 03:45:37 INFO mapreduce.Job:  map 100% reduce 14%
+18/11/15 03:45:44 INFO mapreduce.Job:  map 100% reduce 15%
+18/11/15 03:45:56 INFO mapreduce.Job:  map 100% reduce 16%
+18/11/15 03:45:57 INFO mapreduce.Job:  map 100% reduce 17%
+18/11/15 03:46:06 INFO mapreduce.Job:  map 100% reduce 18%
+18/11/15 03:46:11 INFO mapreduce.Job:  map 100% reduce 19%
+18/11/15 03:46:15 INFO mapreduce.Job:  map 100% reduce 20%
+18/11/15 03:46:20 INFO mapreduce.Job:  map 100% reduce 22%
+18/11/15 03:46:26 INFO mapreduce.Job:  map 100% reduce 25%
+18/11/15 03:46:32 INFO mapreduce.Job:  map 100% reduce 26%
+18/11/15 03:46:33 INFO mapreduce.Job:  map 100% reduce 27%
+18/11/15 03:46:41 INFO mapreduce.Job:  map 100% reduce 28%
+18/11/15 03:46:45 INFO mapreduce.Job:  map 100% reduce 30%
+18/11/15 03:46:49 INFO mapreduce.Job:  map 100% reduce 31%
+18/11/15 03:46:50 INFO mapreduce.Job:  map 100% reduce 32%
+18/11/15 03:46:56 INFO mapreduce.Job:  map 100% reduce 33%
+18/11/15 03:46:57 INFO mapreduce.Job:  map 100% reduce 34%
+18/11/15 03:47:03 INFO mapreduce.Job:  map 100% reduce 35%
+18/11/15 03:47:11 INFO mapreduce.Job:  map 100% reduce 36%
+18/11/15 03:47:17 INFO mapreduce.Job:  map 100% reduce 37%
+18/11/15 03:47:25 INFO mapreduce.Job:  map 100% reduce 38%
+18/11/15 03:47:33 INFO mapreduce.Job:  map 100% reduce 39%
+18/11/15 03:47:37 INFO mapreduce.Job:  map 100% reduce 40%
+18/11/15 03:47:39 INFO mapreduce.Job:  map 100% reduce 41%
+18/11/15 03:47:45 INFO mapreduce.Job:  map 100% reduce 47%
+18/11/15 03:47:57 INFO mapreduce.Job:  map 100% reduce 48%
+18/11/15 03:48:03 INFO mapreduce.Job:  map 100% reduce 49%
+18/11/15 03:48:09 INFO mapreduce.Job:  map 100% reduce 51%
+18/11/15 03:48:15 INFO mapreduce.Job:  map 100% reduce 54%
+18/11/15 03:48:21 INFO mapreduce.Job:  map 100% reduce 55%
+18/11/15 03:48:27 INFO mapreduce.Job:  map 100% reduce 56%
+18/11/15 03:48:33 INFO mapreduce.Job:  map 100% reduce 57%
+18/11/15 03:48:40 INFO mapreduce.Job:  map 100% reduce 58%
+18/11/15 03:48:56 INFO mapreduce.Job:  map 100% reduce 59%
+18/11/15 03:49:08 INFO mapreduce.Job:  map 100% reduce 60%
+18/11/15 03:49:15 INFO mapreduce.Job:  map 100% reduce 61%
+18/11/15 03:49:21 INFO mapreduce.Job:  map 100% reduce 62%
+18/11/15 03:49:24 INFO mapreduce.Job:  map 100% reduce 63%
+18/11/15 03:49:30 INFO mapreduce.Job:  map 100% reduce 65%
+18/11/15 03:49:36 INFO mapreduce.Job:  map 100% reduce 67%
+18/11/15 03:58:40 INFO mapreduce.Job:  map 100% reduce 58%
+18/11/15 03:58:40 INFO mapreduce.Job: Task Id : attempt_1542174845531_0041_r_000005_0, Status : FAILED
+AttemptID:attempt_1542174845531_0041_r_000005_0 Timed out after 600 secs
+Container killed by the ApplicationMaster.
+Sent signal OUTPUT_THREAD_DUMP (SIGQUIT) to pid 12178 as user g13515002 for container container_1542174845531_0041_01_000202, result=success
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+18/11/15 03:59:04 INFO mapreduce.Job:  map 100% reduce 60%
+18/11/15 03:59:09 INFO mapreduce.Job: Task Id : attempt_1542174845531_0041_r_000004_0, Status : FAILED
+AttemptID:attempt_1542174845531_0041_r_000004_0 Timed out after 600 secs
+18/11/15 03:59:09 INFO mapreduce.Job: Task Id : attempt_1542174845531_0041_r_000002_0, Status : FAILED
+AttemptID:attempt_1542174845531_0041_r_000002_0 Timed out after 600 secs
+18/11/15 03:59:10 INFO mapreduce.Job:  map 100% reduce 43%
+18/11/15 03:59:30 INFO mapreduce.Job:  map 100% reduce 44%
+18/11/15 03:59:33 INFO mapreduce.Job:  map 100% reduce 46%
+18/11/15 03:59:47 INFO mapreduce.Job:  map 100% reduce 47%
+18/11/15 04:00:01 INFO mapreduce.Job:  map 100% reduce 48%
+18/11/15 04:00:22 INFO mapreduce.Job:  map 100% reduce 49%
+18/11/15 04:00:29 INFO mapreduce.Job:  map 100% reduce 50%
+18/11/15 04:00:56 INFO mapreduce.Job:  map 100% reduce 51%
+18/11/15 04:01:04 INFO mapreduce.Job:  map 100% reduce 52%
+18/11/15 04:01:08 INFO mapreduce.Job: Task Id : attempt_1542174845531_0041_r_000003_0, Status : FAILED
+AttemptID:attempt_1542174845531_0041_r_000003_0 Timed out after 600 secs
+18/11/15 04:01:09 INFO mapreduce.Job:  map 100% reduce 44%
+18/11/15 04:01:18 INFO mapreduce.Job:  map 100% reduce 45%
+18/11/15 04:01:34 INFO mapreduce.Job:  map 100% reduce 48%
+18/11/15 04:01:40 INFO mapreduce.Job:  map 100% reduce 49%
+18/11/15 04:01:46 INFO mapreduce.Job:  map 100% reduce 50%
+18/11/15 04:01:49 INFO mapreduce.Job:  map 100% reduce 51%
+18/11/15 04:01:52 INFO mapreduce.Job:  map 100% reduce 52%
+18/11/15 04:01:55 INFO mapreduce.Job:  map 100% reduce 54%
+18/11/15 04:02:01 INFO mapreduce.Job:  map 100% reduce 56%
+18/11/15 04:02:18 INFO mapreduce.Job:  map 100% reduce 57%
+18/11/15 04:02:42 INFO mapreduce.Job:  map 100% reduce 58%
+18/11/15 04:02:48 INFO mapreduce.Job:  map 100% reduce 59%
+18/11/15 04:02:54 INFO mapreduce.Job:  map 100% reduce 60%
+18/11/15 04:03:01 INFO mapreduce.Job:  map 100% reduce 61%
+18/11/15 04:03:08 INFO mapreduce.Job:  map 100% reduce 62%
+18/11/15 04:03:56 INFO mapreduce.Job:  map 100% reduce 63%
+18/11/15 04:04:33 INFO mapreduce.Job:  map 100% reduce 64%
+18/11/15 04:04:39 INFO mapreduce.Job:  map 100% reduce 66%
+18/11/15 04:04:45 INFO mapreduce.Job:  map 100% reduce 67%
+18/11/15 04:08:39 INFO mapreduce.Job: Task Id : attempt_1542174845531_0041_r_000007_0, Status : FAILED
+AttemptID:attempt_1542174845531_0041_r_000007_0 Timed out after 600 secs
+Container killed by the ApplicationMaster.
+Sent signal OUTPUT_THREAD_DUMP (SIGQUIT) to pid 12282 as user g13515002 for container container_1542174845531_0041_01_000204, result=success
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+18/11/15 04:08:40 INFO mapreduce.Job:  map 100% reduce 58%
+18/11/15 04:09:02 INFO mapreduce.Job:  map 100% reduce 60%
+18/11/15 04:09:45 INFO mapreduce.Job:  map 100% reduce 61%
+18/11/15 04:10:28 INFO mapreduce.Job:  map 100% reduce 62%
+18/11/15 04:11:18 INFO mapreduce.Job:  map 100% reduce 63%
+18/11/15 04:11:54 INFO mapreduce.Job:  map 67% reduce 38%
+18/11/15 04:11:55 INFO mapreduce.Job:  map 67% reduce 17%
+18/11/15 04:12:16 INFO mapreduce.Job:  map 68% reduce 17%
+18/11/15 04:12:41 INFO mapreduce.Job:  map 68% reduce 8%
+18/11/15 04:12:41 INFO mapreduce.Job: Task Id : attempt_1542174845531_0041_r_000005_1, Status : FAILED
+AttemptID:attempt_1542174845531_0041_r_000005_1 Timed out after 600 secs
+Container killed by the ApplicationMaster.
+Sent signal OUTPUT_THREAD_DUMP (SIGQUIT) to pid 13638 as user g13515002 for container container_1542174845531_0041_01_000205, result=success
+Container killed on request. Exit code is 143
+Container exited with a non-zero exit code 143
+
+18/11/15 04:12:48 INFO mapreduce.Job:  map 69% reduce 8%
+18/11/15 04:13:14 INFO mapreduce.Job:  map 70% reduce 8%
+18/11/15 04:13:47 INFO mapreduce.Job:  map 71% reduce 8%
+18/11/15 04:14:15 INFO mapreduce.Job:  map 72% reduce 8%
+18/11/15 04:14:24 INFO mapreduce.Job:  map 73% reduce 8%
+18/11/15 04:14:43 INFO mapreduce.Job:  map 74% reduce 8%
+18/11/15 04:15:01 INFO mapreduce.Job:  map 75% reduce 8%
+18/11/15 04:15:24 INFO mapreduce.Job:  map 76% reduce 8%
+18/11/15 04:15:35 INFO mapreduce.Job:  map 77% reduce 8%
+18/11/15 04:15:53 INFO mapreduce.Job:  map 78% reduce 8%
+18/11/15 04:16:17 INFO mapreduce.Job:  map 79% reduce 8%
+18/11/15 04:16:36 INFO mapreduce.Job:  map 80% reduce 8%
+18/11/15 04:16:47 INFO mapreduce.Job:  map 81% reduce 8%
+18/11/15 04:17:07 INFO mapreduce.Job:  map 82% reduce 8%
+18/11/15 04:17:25 INFO mapreduce.Job:  map 83% reduce 8%
+18/11/15 04:17:40 INFO mapreduce.Job: Task Id : attempt_1542174845531_0041_r_000003_1, Status : FAILED
+AttemptID:attempt_1542174845531_0041_r_000003_1 Timed out after 600 secs
+18/11/15 04:17:41 INFO mapreduce.Job:  map 83% reduce 0%
+18/11/15 04:17:48 INFO mapreduce.Job:  map 84% reduce 0%
+18/11/15 04:18:04 INFO mapreduce.Job:  map 85% reduce 0%
+18/11/15 04:18:13 INFO mapreduce.Job:  map 86% reduce 0%
+18/11/15 04:18:41 INFO mapreduce.Job:  map 87% reduce 0%
+18/11/15 04:18:54 INFO mapreduce.Job:  map 88% reduce 0%
+18/11/15 04:19:13 INFO mapreduce.Job:  map 89% reduce 0%
+18/11/15 04:19:23 INFO mapreduce.Job:  map 90% reduce 0%
+18/11/15 04:19:37 INFO mapreduce.Job:  map 91% reduce 0%
+18/11/15 04:20:04 INFO mapreduce.Job:  map 92% reduce 0%
+18/11/15 04:20:22 INFO mapreduce.Job:  map 93% reduce 0%
+18/11/15 04:20:39 INFO mapreduce.Job:  map 94% reduce 0%
+18/11/15 04:20:50 INFO mapreduce.Job:  map 95% reduce 0%
+18/11/15 04:21:06 INFO mapreduce.Job:  map 96% reduce 0%
+18/11/15 04:21:34 INFO mapreduce.Job:  map 97% reduce 0%
+18/11/15 04:21:53 INFO mapreduce.Job:  map 98% reduce 0%
+18/11/15 04:22:08 INFO mapreduce.Job:  map 99% reduce 0%
+18/11/15 04:22:09 INFO mapreduce.Job:  map 99% reduce 1%
+18/11/15 04:22:14 INFO mapreduce.Job:  map 99% reduce 3%
+18/11/15 04:22:17 INFO mapreduce.Job:  map 99% reduce 4%
+18/11/15 04:22:40 INFO mapreduce.Job:  map 99% reduce 5%
+18/11/15 04:22:43 INFO mapreduce.Job:  map 99% reduce 7%
+18/11/15 04:22:48 INFO mapreduce.Job:  map 99% reduce 8%
+18/11/15 04:22:58 INFO mapreduce.Job:  map 100% reduce 9%
+18/11/15 04:23:07 INFO mapreduce.Job:  map 100% reduce 10%
+18/11/15 04:23:17 INFO mapreduce.Job:  map 100% reduce 11%
+18/11/15 04:23:21 INFO mapreduce.Job:  map 100% reduce 12%
+18/11/15 04:23:26 INFO mapreduce.Job:  map 100% reduce 13%
+18/11/15 04:23:29 INFO mapreduce.Job:  map 100% reduce 14%
+18/11/15 04:23:34 INFO mapreduce.Job:  map 100% reduce 15%
+18/11/15 04:23:37 INFO mapreduce.Job:  map 100% reduce 16%
+18/11/15 04:23:40 INFO mapreduce.Job:  map 100% reduce 17%
+18/11/15 04:23:44 INFO mapreduce.Job:  map 100% reduce 18%
+18/11/15 04:23:50 INFO mapreduce.Job:  map 100% reduce 19%
+18/11/15 04:23:56 INFO mapreduce.Job:  map 100% reduce 20%
+18/11/15 04:24:02 INFO mapreduce.Job:  map 100% reduce 21%
+18/11/15 04:24:08 INFO mapreduce.Job:  map 100% reduce 22%
+18/11/15 04:24:09 INFO mapreduce.Job:  map 100% reduce 23%
+18/11/15 04:24:14 INFO mapreduce.Job:  map 100% reduce 26%
+18/11/15 04:24:19 INFO mapreduce.Job:  map 100% reduce 27%
+18/11/15 04:24:20 INFO mapreduce.Job:  map 100% reduce 28%
+18/11/15 04:24:23 INFO mapreduce.Job:  map 100% reduce 29%
+18/11/15 04:24:28 INFO mapreduce.Job:  map 100% reduce 30%
+18/11/15 04:24:35 INFO mapreduce.Job:  map 100% reduce 31%
+18/11/15 04:24:38 INFO mapreduce.Job:  map 100% reduce 33%
+18/11/15 04:24:44 INFO mapreduce.Job:  map 100% reduce 35%
+18/11/15 04:24:46 INFO mapreduce.Job:  map 100% reduce 36%
+18/11/15 04:24:54 INFO mapreduce.Job:  map 100% reduce 37%
+18/11/15 04:25:00 INFO mapreduce.Job:  map 100% reduce 38%
+18/11/15 04:25:01 INFO mapreduce.Job:  map 100% reduce 39%
+18/11/15 04:25:06 INFO mapreduce.Job:  map 100% reduce 40%
+18/11/15 04:25:07 INFO mapreduce.Job:  map 100% reduce 42%
+18/11/15 04:25:12 INFO mapreduce.Job:  map 100% reduce 43%
+18/11/15 04:25:14 INFO mapreduce.Job:  map 100% reduce 44%
+18/11/15 04:25:18 INFO mapreduce.Job:  map 100% reduce 45%
+18/11/15 04:25:22 INFO mapreduce.Job:  map 100% reduce 46%
+18/11/15 04:25:24 INFO mapreduce.Job:  map 100% reduce 47%
+18/11/15 04:25:32 INFO mapreduce.Job:  map 100% reduce 48%
+18/11/15 04:25:38 INFO mapreduce.Job:  map 100% reduce 49%
+18/11/15 04:25:56 INFO mapreduce.Job:  map 100% reduce 50%
+18/11/15 04:26:06 INFO mapreduce.Job:  map 100% reduce 51%
+18/11/15 04:26:12 INFO mapreduce.Job:  map 100% reduce 52%
+18/11/15 04:26:13 INFO mapreduce.Job:  map 100% reduce 53%
+18/11/15 04:26:18 INFO mapreduce.Job:  map 100% reduce 54%
+18/11/15 04:26:19 INFO mapreduce.Job:  map 100% reduce 55%
+18/11/15 04:26:24 INFO mapreduce.Job:  map 100% reduce 56%
+18/11/15 04:26:30 INFO mapreduce.Job:  map 100% reduce 57%
+18/11/15 04:26:31 INFO mapreduce.Job:  map 100% reduce 58%
+18/11/15 04:26:39 INFO mapreduce.Job:  map 100% reduce 60%
+18/11/15 04:26:45 INFO mapreduce.Job:  map 100% reduce 61%
+18/11/15 04:26:51 INFO mapreduce.Job:  map 100% reduce 62%
+18/11/15 04:26:58 INFO mapreduce.Job:  map 100% reduce 63%
+18/11/15 04:26:59 INFO mapreduce.Job:  map 100% reduce 67%
+
+18/11/15 04:34:12 INFO mapreduce.Job:  map 55% reduce 42%
+18/11/15 04:34:13 INFO mapreduce.Job:  map 55% reduce 17%
+18/11/15 04:34:31 INFO mapreduce.Job:  map 56% reduce 17%
+18/11/15 04:35:00 INFO mapreduce.Job:  map 57% reduce 17%
+18/11/15 04:35:40 INFO mapreduce.Job: Task Id : attempt_1542174845531_0041_r_000005_2, Status : FAILED
+AttemptID:attempt_1542174845531_0041_r_000005_2 Timed out after 600 secs
+18/11/15 04:35:41 INFO mapreduce.Job:  map 57% reduce 8%
+18/11/15 04:35:49 INFO mapreduce.Job:  map 58% reduce 8%
+18/11/15 04:36:13 INFO mapreduce.Job:  map 59% reduce 8%
+18/11/15 04:36:38 INFO mapreduce.Job:  map 60% reduce 8%
+18/11/15 04:36:40 INFO mapreduce.Job: Task Id : attempt_1542174845531_0041_r_000003_2, Status : FAILED
+AttemptID:attempt_1542174845531_0041_r_000003_2 Timed out after 600 secs
+18/11/15 04:36:41 INFO mapreduce.Job:  map 60% reduce 0%
+18/11/15 04:36:54 INFO mapreduce.Job:  map 61% reduce 0%
+18/11/15 04:37:10 INFO mapreduce.Job:  map 62% reduce 0%
+18/11/15 04:37:21 INFO mapreduce.Job:  map 63% reduce 0%
