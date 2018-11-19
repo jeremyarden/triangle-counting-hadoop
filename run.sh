@@ -7,14 +7,14 @@ hdfs dfs -rm -r -f /user/wennyyustalim/temp/first-mapreduce
 hdfs dfs -rm -r -f /user/wennyyustalim/temp/second-mapreduce
 rm triplet.jar
 rm ClosedTriplet*.class
-rm TriangleTypePartition.class
+rm TriangleTypePartition*.class LongPair*.class
 
 #### Compile ####
 # hadoop com.sun.tools.javac.Main ClosedTripletCount.java
 # jar cf triplet.jar ClosedTripletCount*.class
 
-hadoop com.sun.tools.javac.Main TriangleTypePartition.java
-jar cf triplet.jar TriangleTypePartition*.class
+hadoop com.sun.tools.javac.Main TriangleTypePartition.java LongPair.java
+jar cf ttp.jar TriangleTypePartition*.class LongPair*.class
 
 #### Execute ####
 
@@ -38,5 +38,5 @@ jar cf triplet.jar TriangleTypePartition*.class
 # hdfs dfs -cat /user/wennyyustalim/output_tc3/*
 
 ## TTP ##
-hadoop jar triplet.jar TriangleTypePartition /user/wennyyustalim/input2 /user/wennyyustalim/output2
+hadoop jar ttp.jar TriangleTypePartition /user/wennyyustalim/input2 /user/wennyyustalim/output2
 hdfs dfs -cat /user/wennyyustalim/output2/*
