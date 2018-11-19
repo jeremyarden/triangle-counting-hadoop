@@ -1,0 +1,557 @@
+Deleted /user/wennyyustalim/temp/first-mapreduce
+18/11/18 13:14:50 INFO gcs.GoogleHadoopFileSystemBase: GHFS version: 1.6.10-hadoop2
+18/11/18 13:14:53 INFO gcs.GoogleHadoopFileSystemBase: GHFS version: 1.6.10-hadoop2
+Deleted /user/wennyyustalim/temp/first-mapreduce
+18/11/18 13:14:57 INFO gcs.GoogleHadoopFileSystemBase: GHFS version: 1.6.10-hadoop2
+Note: ClosedTripletCount.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+18/11/18 13:15:04 INFO gcs.GoogleHadoopFileSystemBase: GHFS version: 1.6.10-hadoop2
+18/11/18 13:15:06 INFO client.RMProxy: Connecting to ResourceManager at cluster-hadoop-wenny-m/10.140.0.2:8032
+18/11/18 13:15:07 INFO input.FileInputFormat: Total input files to process : 1
+18/11/18 13:15:07 INFO mapreduce.JobSubmitter: number of splits:195
+18/11/18 13:15:07 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1542174845531_0057
+18/11/18 13:15:08 INFO impl.YarnClientImpl: Submitted application application_1542174845531_0057
+18/11/18 13:15:08 INFO mapreduce.Job: The url to track the job: http://cluster-hadoop-wenny-m:8088/proxy/application_1542174845531_0057/
+18/11/18 13:15:08 INFO mapreduce.Job: Running job: job_1542174845531_0057
+18/11/18 13:15:36 INFO mapreduce.Job: Job job_1542174845531_0057 running in uber mode : false
+18/11/18 13:15:36 INFO mapreduce.Job:  map 0% reduce 0%
+18/11/18 13:16:31 INFO mapreduce.Job:  map 1% reduce 0%
+18/11/18 13:16:38 INFO mapreduce.Job:  map 2% reduce 0%
+18/11/18 13:17:23 INFO mapreduce.Job:  map 3% reduce 0%
+18/11/18 13:18:01 INFO mapreduce.Job:  map 4% reduce 0%
+18/11/18 13:18:02 INFO mapreduce.Job:  map 6% reduce 0%
+18/11/18 13:18:09 INFO mapreduce.Job:  map 7% reduce 0%
+18/11/18 13:18:52 INFO mapreduce.Job:  map 8% reduce 0%
+18/11/18 13:19:06 INFO mapreduce.Job:  map 9% reduce 0%
+18/11/18 13:19:10 INFO mapreduce.Job:  map 10% reduce 0%
+18/11/18 13:19:12 INFO mapreduce.Job:  map 11% reduce 0%
+18/11/18 13:19:36 INFO mapreduce.Job:  map 12% reduce 0%
+18/11/18 13:20:15 INFO mapreduce.Job:  map 13% reduce 0%
+18/11/18 13:20:16 INFO mapreduce.Job:  map 14% reduce 0%
+18/11/18 13:20:19 INFO mapreduce.Job:  map 15% reduce 0%
+18/11/18 13:20:23 INFO mapreduce.Job:  map 16% reduce 0%
+18/11/18 13:21:07 INFO mapreduce.Job:  map 17% reduce 0%
+18/11/18 13:21:23 INFO mapreduce.Job:  map 18% reduce 0%
+18/11/18 13:21:24 INFO mapreduce.Job:  map 19% reduce 0%
+18/11/18 13:21:32 INFO mapreduce.Job:  map 20% reduce 0%
+18/11/18 13:21:53 INFO mapreduce.Job:  map 21% reduce 0%
+18/11/18 13:22:15 INFO mapreduce.Job:  map 22% reduce 0%
+18/11/18 13:22:34 INFO mapreduce.Job:  map 23% reduce 0%
+18/11/18 13:22:35 INFO mapreduce.Job:  map 24% reduce 0%
+18/11/18 13:22:37 INFO mapreduce.Job:  map 25% reduce 0%
+18/11/18 13:23:23 INFO mapreduce.Job:  map 26% reduce 0%
+18/11/18 13:23:30 INFO mapreduce.Job:  map 27% reduce 0%
+18/11/18 13:23:42 INFO mapreduce.Job:  map 28% reduce 0%
+18/11/18 13:23:45 INFO mapreduce.Job:  map 29% reduce 0%
+18/11/18 13:24:15 INFO mapreduce.Job:  map 30% reduce 0%
+18/11/18 13:24:37 INFO mapreduce.Job:  map 31% reduce 0%
+18/11/18 13:24:53 INFO mapreduce.Job:  map 32% reduce 0%
+18/11/18 13:24:57 INFO mapreduce.Job:  map 33% reduce 0%
+18/11/18 13:25:03 INFO mapreduce.Job:  map 34% reduce 0%
+18/11/18 13:25:47 INFO mapreduce.Job:  map 36% reduce 0%
+18/11/18 13:26:01 INFO mapreduce.Job:  map 37% reduce 0%
+18/11/18 13:26:09 INFO mapreduce.Job:  map 38% reduce 0%
+18/11/18 13:26:30 INFO mapreduce.Job:  map 39% reduce 0%
+18/11/18 13:26:54 INFO mapreduce.Job:  map 40% reduce 0%
+18/11/18 13:27:03 INFO mapreduce.Job:  map 41% reduce 0%
+18/11/18 13:27:11 INFO mapreduce.Job:  map 42% reduce 0%
+18/11/18 13:27:17 INFO mapreduce.Job:  map 43% reduce 0%
+18/11/18 13:27:23 INFO mapreduce.Job:  map 44% reduce 0%
+18/11/18 13:28:06 INFO mapreduce.Job:  map 45% reduce 0%
+18/11/18 13:28:12 INFO mapreduce.Job:  map 46% reduce 0%
+18/11/18 13:28:28 INFO mapreduce.Job:  map 47% reduce 0%
+18/11/18 13:28:36 INFO mapreduce.Job:  map 48% reduce 0%
+18/11/18 13:29:02 INFO mapreduce.Job:  map 49% reduce 0%
+18/11/18 13:29:22 INFO mapreduce.Job:  map 50% reduce 0%
+18/11/18 13:29:40 INFO mapreduce.Job:  map 51% reduce 0%
+18/11/18 13:29:43 INFO mapreduce.Job:  map 52% reduce 0%
+18/11/18 13:29:53 INFO mapreduce.Job:  map 53% reduce 0%
+18/11/18 13:30:34 INFO mapreduce.Job:  map 54% reduce 0%
+18/11/18 13:30:39 INFO mapreduce.Job:  map 55% reduce 0%
+18/11/18 13:30:53 INFO mapreduce.Job:  map 56% reduce 0%
+18/11/18 13:31:08 INFO mapreduce.Job:  map 57% reduce 0%
+18/11/18 13:31:30 INFO mapreduce.Job:  map 58% reduce 0%
+18/11/18 13:31:48 INFO mapreduce.Job:  map 59% reduce 0%
+18/11/18 13:32:01 INFO mapreduce.Job:  map 60% reduce 0%
+18/11/18 13:32:07 INFO mapreduce.Job:  map 61% reduce 0%
+18/11/18 13:32:18 INFO mapreduce.Job:  map 62% reduce 0%
+18/11/18 13:33:01 INFO mapreduce.Job:  map 63% reduce 0%
+18/11/18 13:33:11 INFO mapreduce.Job:  map 64% reduce 0%
+18/11/18 13:33:14 INFO mapreduce.Job:  map 65% reduce 0%
+18/11/18 13:33:26 INFO mapreduce.Job:  map 66% reduce 0%
+18/11/18 13:34:05 INFO mapreduce.Job:  map 67% reduce 0%
+18/11/18 13:34:20 INFO mapreduce.Job:  map 68% reduce 0%
+18/11/18 13:34:32 INFO mapreduce.Job:  map 69% reduce 0%
+18/11/18 13:34:47 INFO mapreduce.Job:  map 70% reduce 0%
+18/11/18 13:34:59 INFO mapreduce.Job:  map 71% reduce 0%
+18/11/18 13:35:38 INFO mapreduce.Job:  map 72% reduce 0%
+18/11/18 13:35:48 INFO mapreduce.Job:  map 73% reduce 0%
+18/11/18 13:35:52 INFO mapreduce.Job:  map 74% reduce 0%
+18/11/18 13:36:07 INFO mapreduce.Job:  map 75% reduce 0%
+18/11/18 13:36:43 INFO mapreduce.Job:  map 76% reduce 0%
+18/11/18 13:36:55 INFO mapreduce.Job:  map 77% reduce 0%
+18/11/18 13:37:14 INFO mapreduce.Job:  map 78% reduce 0%
+18/11/18 13:37:34 INFO mapreduce.Job:  map 79% reduce 0%
+18/11/18 13:37:37 INFO mapreduce.Job:  map 80% reduce 0%
+18/11/18 13:38:13 INFO mapreduce.Job:  map 81% reduce 0%
+18/11/18 13:38:24 INFO mapreduce.Job:  map 82% reduce 0%
+18/11/18 13:38:32 INFO mapreduce.Job:  map 83% reduce 0%
+18/11/18 13:38:40 INFO mapreduce.Job:  map 84% reduce 0%
+18/11/18 13:39:26 INFO mapreduce.Job:  map 85% reduce 0%
+18/11/18 13:39:36 INFO mapreduce.Job:  map 86% reduce 0%
+18/11/18 13:39:41 INFO mapreduce.Job:  map 87% reduce 0%
+18/11/18 13:40:00 INFO mapreduce.Job:  map 88% reduce 0%
+18/11/18 13:40:21 INFO mapreduce.Job:  map 89% reduce 0%
+18/11/18 13:40:56 INFO mapreduce.Job:  map 90% reduce 0%
+18/11/18 13:41:00 INFO mapreduce.Job:  map 91% reduce 0%
+18/11/18 13:41:17 INFO mapreduce.Job:  map 92% reduce 0%
+18/11/18 13:41:22 INFO mapreduce.Job:  map 93% reduce 0%
+18/11/18 13:42:15 INFO mapreduce.Job:  map 94% reduce 0%
+18/11/18 13:42:20 INFO mapreduce.Job:  map 95% reduce 0%
+18/11/18 13:42:22 INFO mapreduce.Job:  map 96% reduce 0%
+18/11/18 13:42:49 INFO mapreduce.Job:  map 97% reduce 0%
+18/11/18 13:43:14 INFO mapreduce.Job:  map 98% reduce 0%
+18/11/18 13:43:53 INFO mapreduce.Job:  map 99% reduce 0%
+18/11/18 13:44:29 INFO mapreduce.Job:  map 100% reduce 0%
+18/11/18 13:57:18 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_r_000007_0, Status : FAILED
+Error: org.apache.hadoop.mapreduce.task.reduce.Shuffle$ShuffleError: error in shuffle in fetcher#1
+	at org.apache.hadoop.mapreduce.task.reduce.Shuffle.run(Shuffle.java:134)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:376)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:175)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1840)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:169)
+Caused by: java.io.IOException: Exceeded MAX_FAILED_UNIQUE_FETCHES; bailing-out.
+	at org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl.checkReducerHealth(ShuffleSchedulerImpl.java:370)
+	at org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl.copyFailed(ShuffleSchedulerImpl.java:292)
+	at org.apache.hadoop.mapreduce.task.reduce.Fetcher.openShuffleUrl(Fetcher.java:282)
+	at org.apache.hadoop.mapreduce.task.reduce.Fetcher.copyFromHost(Fetcher.java:321)
+	at org.apache.hadoop.mapreduce.task.reduce.Fetcher.run(Fetcher.java:193)
+
+18/11/18 14:20:14 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000164_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000004_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:20:14 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000131_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000004_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:20:14 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000186_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000004_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:20:14 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000188_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000004_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:20:14 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000107_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000004_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:20:14 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000088_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000004_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:20:14 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000069_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000004_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:20:14 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000101_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000004_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:20:14 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000116_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000004_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:20:14 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000070_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000004_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:20:15 INFO mapreduce.Job:  map 88% reduce 0%
+18/11/18 14:20:15 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000102_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000004_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:20:15 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000083_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000004_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:20:15 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000096_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000004_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:20:15 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000066_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000004_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:20:15 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000073_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000004_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:20:15 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000105_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000004_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:20:15 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000078_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000004_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:20:15 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000110_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000004_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:20:15 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000123_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000004_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:20:15 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000117_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000004_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:20:16 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000178_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000004_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:20:16 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000124_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000004_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:20:16 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000086_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000004_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:20:16 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_r_000004_0, Status : FAILED
+Error: org.apache.hadoop.mapreduce.task.reduce.Shuffle$ShuffleError: error in shuffle in fetcher#1
+	at org.apache.hadoop.mapreduce.task.reduce.Shuffle.run(Shuffle.java:134)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:376)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:175)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1840)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:169)
+Caused by: java.io.IOException: Exceeded MAX_FAILED_UNIQUE_FETCHES; bailing-out.
+	at org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl.checkReducerHealth(ShuffleSchedulerImpl.java:370)
+	at org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl.copyFailed(ShuffleSchedulerImpl.java:292)
+	at org.apache.hadoop.mapreduce.task.reduce.Fetcher.openShuffleUrl(Fetcher.java:282)
+	at org.apache.hadoop.mapreduce.task.reduce.Fetcher.copyFromHost(Fetcher.java:321)
+	at org.apache.hadoop.mapreduce.task.reduce.Fetcher.run(Fetcher.java:193)
+
+18/11/18 14:20:51 INFO mapreduce.Job:  map 89% reduce 0%
+18/11/18 14:21:20 INFO mapreduce.Job:  map 90% reduce 0%
+18/11/18 14:23:08 INFO mapreduce.Job:  map 91% reduce 0%
+18/11/18 14:23:49 INFO mapreduce.Job:  map 92% reduce 0%
+18/11/18 14:24:29 INFO mapreduce.Job:  map 93% reduce 0%
+18/11/18 14:24:43 INFO mapreduce.Job:  map 94% reduce 0%
+18/11/18 14:25:44 INFO mapreduce.Job:  map 95% reduce 0%
+18/11/18 14:26:17 INFO mapreduce.Job:  map 96% reduce 0%
+18/11/18 14:26:48 INFO mapreduce.Job:  map 97% reduce 0%
+18/11/18 14:27:39 INFO mapreduce.Job:  map 99% reduce 0%
+18/11/18 14:27:39 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000025_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000006_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:27:39 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000118_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000005_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:27:39 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000158_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000005_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:27:39 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000139_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000005_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:27:39 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000152_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000005_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:27:39 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000154_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000005_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:27:39 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000161_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000005_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:27:39 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000128_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000005_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:27:39 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000141_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000005_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:27:39 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000156_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000005_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:27:40 INFO mapreduce.Job:  map 90% reduce 0%
+18/11/18 14:27:40 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000169_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000005_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:27:40 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000142_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000005_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:27:40 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000174_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000005_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:27:40 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000155_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000005_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:27:40 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000181_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000005_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:27:40 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000170_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000005_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:27:40 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000183_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000005_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:27:40 INFO mapreduce.Job: Task Id : attempt_1542174845531_0057_m_000132_0, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542174845531_0057_r_000005_0 from host cluster-hadoop-wenny-w-2.c.dark-smile-216913.internal
+18/11/18 14:28:30 INFO mapreduce.Job:  map 91% reduce 0%
+18/11/18 14:29:35 INFO mapreduce.Job:  map 92% reduce 0%
+18/11/18 14:41:09 INFO mapreduce.Job:  map 0% reduce 0%
+18/11/18 14:41:09 INFO mapreduce.Job: Job job_1542174845531_0057 failed with state KILLED due to: Application application_1542174845531_0057 was killed by user g13515002 at 10.140.0.2
+18/11/18 14:41:09 INFO mapreduce.Job: Counters: 0
+18/11/18 14:41:11 INFO gcs.GoogleHadoopFileSystemBase: GHFS version: 1.6.10-hadoop2
+cat: `/user/wennyyustalim/output/*': No such file or directory
+18/11/18 14:44:24 INFO gcs.GoogleHadoopFileSystemBase: GHFS version: 1.6.10-hadoop2
+18/11/18 14:44:28 INFO gcs.GoogleHadoopFileSystemBase: GHFS version: 1.6.10-hadoop2
+Deleted /user/wennyyustalim/temp/first-mapreduce
+18/11/18 14:44:32 INFO gcs.GoogleHadoopFileSystemBase: GHFS version: 1.6.10-hadoop2
+Note: ClosedTripletCount.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+18/11/18 14:44:38 INFO gcs.GoogleHadoopFileSystemBase: GHFS version: 1.6.10-hadoop2
+18/11/18 14:44:40 INFO client.RMProxy: Connecting to ResourceManager at cluster-hadoop-wenny-m/10.140.0.2:8032
+18/11/18 14:44:41 INFO input.FileInputFormat: Total input files to process : 1
+18/11/18 14:44:41 WARN hdfs.DataStreamer: Caught exception
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Thread.join(Thread.java:1252)
+	at java.lang.Thread.join(Thread.java:1326)
+	at org.apache.hadoop.hdfs.DataStreamer.closeResponder(DataStreamer.java:973)
+	at org.apache.hadoop.hdfs.DataStreamer.endBlock(DataStreamer.java:624)
+	at org.apache.hadoop.hdfs.DataStreamer.run(DataStreamer.java:801)
+18/11/18 14:44:41 WARN hdfs.DataStreamer: Caught exception
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Thread.join(Thread.java:1252)
+	at java.lang.Thread.join(Thread.java:1326)
+	at org.apache.hadoop.hdfs.DataStreamer.closeResponder(DataStreamer.java:973)
+	at org.apache.hadoop.hdfs.DataStreamer.endBlock(DataStreamer.java:624)
+	at org.apache.hadoop.hdfs.DataStreamer.run(DataStreamer.java:801)
+18/11/18 14:44:41 INFO mapreduce.JobSubmitter: number of splits:195
+18/11/18 14:44:42 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1542174845531_0058
+18/11/18 14:44:42 INFO impl.YarnClientImpl: Submitted application application_1542174845531_0058
+18/11/18 14:44:42 INFO mapreduce.Job: The url to track the job: http://cluster-hadoop-wenny-m:8088/proxy/application_1542174845531_0058/
+18/11/18 14:44:42 INFO mapreduce.Job: Running job: job_1542174845531_0058
+18/11/18 14:44:50 INFO mapreduce.Job: Job job_1542174845531_0058 running in uber mode : false
+18/11/18 14:44:50 INFO mapreduce.Job:  map 0% reduce 0%
+18/11/18 14:45:38 INFO mapreduce.Job:  map 1% reduce 0%
+18/11/18 14:45:47 INFO mapreduce.Job:  map 0% reduce 0%
+18/11/18 14:45:47 INFO mapreduce.Job: Job job_1542174845531_0058 failed with state KILLED due to: Application application_1542174845531_0058 was killed by user g13515002 at 10.140.0.2
+18/11/18 14:45:47 INFO mapreduce.Job: Counters: 0
+18/11/18 14:45:49 INFO gcs.GoogleHadoopFileSystemBase: GHFS version: 1.6.10-hadoop2
+cat: `/user/wennyyustalim/output/*': No such file or directory
+18/11/18 14:56:59 INFO gcs.GoogleHadoopFileSystemBase: GHFS version: 1.6.10-hadoop2
+18/11/18 14:57:03 INFO gcs.GoogleHadoopFileSystemBase: GHFS version: 1.6.10-hadoop2
+Deleted /user/wennyyustalim/temp/first-mapreduce
+18/11/18 14:57:07 INFO gcs.GoogleHadoopFileSystemBase: GHFS version: 1.6.10-hadoop2
+Note: ClosedTripletCount.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+18/11/18 14:57:16 INFO gcs.GoogleHadoopFileSystemBase: GHFS version: 1.6.10-hadoop2
+18/11/18 14:57:17 INFO client.RMProxy: Connecting to ResourceManager at cluster-hadoop-wenny-m/10.140.0.2:8032
+18/11/18 14:57:19 INFO input.FileInputFormat: Total input files to process : 1
+18/11/18 14:57:19 INFO mapreduce.JobSubmitter: number of splits:195
+18/11/18 14:57:19 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1542552664496_0001
+18/11/18 14:57:20 INFO impl.YarnClientImpl: Submitted application application_1542552664496_0001
+18/11/18 14:57:20 INFO mapreduce.Job: The url to track the job: http://cluster-hadoop-wenny-m:8088/proxy/application_1542552664496_0001/
+18/11/18 14:57:20 INFO mapreduce.Job: Running job: job_1542552664496_0001
+18/11/18 14:57:30 INFO mapreduce.Job: Job job_1542552664496_0001 running in uber mode : false
+18/11/18 14:57:30 INFO mapreduce.Job:  map 0% reduce 0%
+18/11/18 14:58:20 INFO mapreduce.Job:  map 1% reduce 0%
+18/11/18 14:58:33 INFO mapreduce.Job:  map 2% reduce 0%
+18/11/18 14:58:36 INFO mapreduce.Job:  map 1% reduce 0%
+18/11/18 14:58:37 INFO mapreduce.Job:  map 2% reduce 0%
+18/11/18 14:58:49 INFO mapreduce.Job:  map 3% reduce 0%
+18/11/18 14:59:08 INFO mapreduce.Job:  map 4% reduce 0%
+18/11/18 14:59:20 INFO mapreduce.Job:  map 2% reduce 0%
+18/11/18 15:00:06 INFO mapreduce.Job:  map 3% reduce 0%
+18/11/18 15:00:28 INFO mapreduce.Job:  map 4% reduce 0%
+18/11/18 15:00:31 INFO mapreduce.Job:  map 5% reduce 0%
+18/11/18 15:00:33 INFO mapreduce.Job:  map 6% reduce 0%
+18/11/18 15:00:52 INFO mapreduce.Job:  map 7% reduce 0%
+18/11/18 15:01:38 INFO mapreduce.Job:  map 8% reduce 0%
+18/11/18 15:01:39 INFO mapreduce.Job:  map 9% reduce 0%
+18/11/18 15:01:41 INFO mapreduce.Job:  map 10% reduce 0%
+18/11/18 15:01:42 INFO mapreduce.Job:  map 11% reduce 0%
+18/11/18 15:02:24 INFO mapreduce.Job:  map 12% reduce 0%
+18/11/18 15:02:46 INFO mapreduce.Job:  map 13% reduce 0%
+18/11/18 15:02:48 INFO mapreduce.Job:  map 14% reduce 0%
+18/11/18 15:02:49 INFO mapreduce.Job:  map 15% reduce 0%
+18/11/18 15:03:10 INFO mapreduce.Job:  map 16% reduce 0%
+18/11/18 15:03:53 INFO mapreduce.Job:  map 17% reduce 0%
+18/11/18 15:03:54 INFO mapreduce.Job:  map 18% reduce 0%
+18/11/18 15:03:56 INFO mapreduce.Job:  map 19% reduce 0%
+18/11/18 15:03:58 INFO mapreduce.Job:  map 20% reduce 0%
+18/11/18 15:04:31 INFO mapreduce.Job:  map 21% reduce 0%
+18/11/18 15:05:00 INFO mapreduce.Job:  map 22% reduce 0%
+18/11/18 15:05:06 INFO mapreduce.Job:  map 23% reduce 0%
+18/11/18 15:05:11 INFO mapreduce.Job:  map 24% reduce 0%
+18/11/18 15:05:15 INFO mapreduce.Job:  map 25% reduce 0%
+18/11/18 15:06:01 INFO mapreduce.Job:  map 26% reduce 0%
+18/11/18 15:06:15 INFO mapreduce.Job:  map 27% reduce 0%
+18/11/18 15:06:19 INFO mapreduce.Job:  map 28% reduce 0%
+18/11/18 15:06:21 INFO mapreduce.Job:  map 29% reduce 0%
+18/11/18 15:06:52 INFO mapreduce.Job:  map 30% reduce 0%
+18/11/18 15:07:19 INFO mapreduce.Job:  map 31% reduce 0%
+18/11/18 15:07:29 INFO mapreduce.Job:  map 32% reduce 0%
+18/11/18 15:07:35 INFO mapreduce.Job:  map 33% reduce 0%
+18/11/18 15:07:36 INFO mapreduce.Job:  map 34% reduce 0%
+18/11/18 15:08:25 INFO mapreduce.Job:  map 35% reduce 0%
+18/11/18 15:08:30 INFO mapreduce.Job:  map 36% reduce 0%
+18/11/18 15:08:43 INFO mapreduce.Job:  map 37% reduce 0%
+18/11/18 15:08:47 INFO mapreduce.Job:  map 38% reduce 0%
+18/11/18 15:09:11 INFO mapreduce.Job:  map 39% reduce 0%
+18/11/18 15:09:33 INFO mapreduce.Job:  map 40% reduce 0%
+18/11/18 15:09:37 INFO mapreduce.Job:  map 41% reduce 0%
+18/11/18 15:09:53 INFO mapreduce.Job:  map 42% reduce 0%
+18/11/18 15:09:58 INFO mapreduce.Job:  map 43% reduce 0%
+18/11/18 15:10:04 INFO mapreduce.Job:  map 44% reduce 0%
+18/11/18 15:10:43 INFO mapreduce.Job:  map 45% reduce 0%
+18/11/18 15:10:52 INFO mapreduce.Job:  map 46% reduce 0%
+18/11/18 15:11:11 INFO mapreduce.Job:  map 47% reduce 0%
+18/11/18 15:11:12 INFO mapreduce.Job:  map 48% reduce 0%
+18/11/18 15:11:43 INFO mapreduce.Job:  map 49% reduce 0%
+18/11/18 15:11:54 INFO mapreduce.Job:  map 50% reduce 0%
+18/11/18 15:12:19 INFO mapreduce.Job:  map 51% reduce 0%
+18/11/18 15:12:21 INFO mapreduce.Job:  map 52% reduce 0%
+18/11/18 15:12:30 INFO mapreduce.Job:  map 53% reduce 0%
+18/11/18 15:13:04 INFO mapreduce.Job:  map 54% reduce 0%
+18/11/18 15:13:18 INFO mapreduce.Job:  map 55% reduce 0%
+18/11/18 15:13:35 INFO mapreduce.Job:  map 56% reduce 0%
+18/11/18 15:13:51 INFO mapreduce.Job:  map 57% reduce 0%
+18/11/18 15:14:09 INFO mapreduce.Job:  map 58% reduce 0%
+18/11/18 15:14:20 INFO mapreduce.Job:  map 59% reduce 0%
+18/11/18 15:14:49 INFO mapreduce.Job:  map 60% reduce 0%
+18/11/18 15:14:51 INFO mapreduce.Job:  map 61% reduce 0%
+18/11/18 15:15:00 INFO mapreduce.Job:  map 62% reduce 0%
+18/11/18 15:15:26 INFO mapreduce.Job:  map 63% reduce 0%
+18/11/18 15:15:39 INFO mapreduce.Job:  map 64% reduce 0%
+18/11/18 15:16:07 INFO mapreduce.Job:  map 65% reduce 0%
+18/11/18 15:16:16 INFO mapreduce.Job:  map 66% reduce 0%
+18/11/18 15:16:31 INFO mapreduce.Job:  map 67% reduce 0%
+18/11/18 15:16:40 INFO mapreduce.Job:  map 68% reduce 0%
+18/11/18 15:17:24 INFO mapreduce.Job:  map 69% reduce 0%
+18/11/18 15:17:33 INFO mapreduce.Job:  map 70% reduce 0%
+18/11/18 15:17:38 INFO mapreduce.Job:  map 71% reduce 0%
+18/11/18 15:17:53 INFO mapreduce.Job:  map 72% reduce 0%
+18/11/18 15:18:15 INFO mapreduce.Job:  map 73% reduce 0%
+18/11/18 15:18:42 INFO mapreduce.Job:  map 74% reduce 0%
+18/11/18 15:18:58 INFO mapreduce.Job:  map 75% reduce 0%
+18/11/18 15:19:06 INFO mapreduce.Job:  map 76% reduce 0%
+18/11/18 15:19:13 INFO mapreduce.Job:  map 77% reduce 0%
+18/11/18 15:19:59 INFO mapreduce.Job:  map 78% reduce 0%
+18/11/18 15:20:14 INFO mapreduce.Job:  map 79% reduce 0%
+18/11/18 15:20:21 INFO mapreduce.Job:  map 81% reduce 0%
+18/11/18 15:20:30 INFO mapreduce.Job:  map 82% reduce 0%
+18/11/18 15:21:06 INFO mapreduce.Job:  map 83% reduce 0%
+18/11/18 15:21:45 INFO mapreduce.Job:  map 85% reduce 0%
+18/11/18 15:21:47 INFO mapreduce.Job:  map 86% reduce 0%
+18/11/18 15:22:02 INFO mapreduce.Job:  map 87% reduce 0%
+18/11/18 15:22:42 INFO mapreduce.Job:  map 88% reduce 0%
+18/11/18 15:23:04 INFO mapreduce.Job:  map 89% reduce 0%
+18/11/18 15:23:08 INFO mapreduce.Job:  map 90% reduce 0%
+18/11/18 15:23:09 INFO mapreduce.Job:  map 91% reduce 0%
+18/11/18 15:23:50 INFO mapreduce.Job:  map 92% reduce 0%
+18/11/18 15:24:25 INFO mapreduce.Job:  map 93% reduce 0%
+18/11/18 15:24:30 INFO mapreduce.Job:  map 94% reduce 0%
+18/11/18 15:24:32 INFO mapreduce.Job:  map 95% reduce 0%
+18/11/18 15:24:49 INFO mapreduce.Job:  map 96% reduce 0%
+18/11/18 15:25:31 INFO mapreduce.Job:  map 97% reduce 0%
+18/11/18 15:25:53 INFO mapreduce.Job:  map 98% reduce 0%
+18/11/18 15:25:58 INFO mapreduce.Job:  map 99% reduce 0%
+18/11/18 15:28:39 INFO mapreduce.Job:  map 100% reduce 0%
+18/11/18 16:21:21 INFO mapreduce.Job: Task Id : attempt_1542552664496_0001_m_000194_1000, Status : FAILED
+Too many fetch failures. Failing the attempt. Last failure reported by attempt_1542552664496_0001_r_000000_1000 from host cluster-hadoop-wenny-w-1.c.dark-smile-216913.internal
+18/11/18 16:21:22 INFO mapreduce.Job:  map 99% reduce 0%
+18/11/18 16:22:03 INFO mapreduce.Job:  map 100% reduce 0%
+18/11/18 16:38:07 INFO mapreduce.Job: Task Id : attempt_1542552664496_0001_r_000000_1001, Status : FAILED
+Error: org.apache.hadoop.mapreduce.task.reduce.Shuffle$ShuffleError: error in shuffle in fetcher#1
+	at org.apache.hadoop.mapreduce.task.reduce.Shuffle.run(Shuffle.java:134)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:376)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:175)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1840)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:169)
+Caused by: java.io.IOException: Exceeded MAX_FAILED_UNIQUE_FETCHES; bailing-out.
+	at org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl.checkReducerHealth(ShuffleSchedulerImpl.java:370)
+	at org.apache.hadoop.mapreduce.task.reduce.ShuffleSchedulerImpl.copyFailed(ShuffleSchedulerImpl.java:292)
+	at org.apache.hadoop.mapreduce.task.reduce.Fetcher.openShuffleUrl(Fetcher.java:282)
+	at org.apache.hadoop.mapreduce.task.reduce.Fetcher.copyFromHost(Fetcher.java:321)
+	at org.apache.hadoop.mapreduce.task.reduce.Fetcher.run(Fetcher.java:193)
+
+18/11/18 16:49:39 INFO mapreduce.Job:  map 67% reduce 0%
+18/11/18 16:50:24 INFO mapreduce.Job:  map 68% reduce 0%
+18/11/18 16:50:39 INFO mapreduce.Job:  map 69% reduce 0%
+18/11/18 16:51:16 INFO mapreduce.Job:  map 70% reduce 0%
+18/11/18 16:51:52 INFO mapreduce.Job:  map 71% reduce 0%
+18/11/18 16:53:06 INFO mapreduce.Job:  map 72% reduce 0%
+18/11/18 16:53:52 INFO mapreduce.Job:  map 73% reduce 0%
+18/11/18 16:54:43 INFO mapreduce.Job:  map 74% reduce 0%
+18/11/18 16:55:29 INFO mapreduce.Job:  map 75% reduce 0%
+18/11/18 16:56:07 INFO mapreduce.Job:  map 76% reduce 0%
+18/11/18 16:56:22 INFO mapreduce.Job:  map 77% reduce 0%
+18/11/18 16:56:47 INFO mapreduce.Job:  map 78% reduce 0%
+18/11/18 16:57:12 INFO mapreduce.Job:  map 79% reduce 0%
+18/11/18 16:57:19 INFO mapreduce.Job:  map 80% reduce 0%
+18/11/18 16:57:48 INFO mapreduce.Job:  map 81% reduce 0%
+18/11/18 16:58:57 INFO mapreduce.Job:  map 82% reduce 0%
+18/11/18 17:00:02 INFO mapreduce.Job:  map 83% reduce 0%
+18/11/18 17:02:03 INFO mapreduce.Job:  map 84% reduce 0%
+18/11/18 17:03:13 INFO mapreduce.Job:  map 85% reduce 0%
+18/11/18 17:03:47 INFO mapreduce.Job:  map 86% reduce 0%
+18/11/18 17:03:57 INFO mapreduce.Job:  map 87% reduce 0%
+18/11/18 17:04:47 INFO mapreduce.Job:  map 88% reduce 0%
+18/11/18 17:06:21 INFO mapreduce.Job:  map 89% reduce 0%
+18/11/18 17:08:06 INFO mapreduce.Job:  map 90% reduce 0%
+18/11/18 17:36:57 INFO mapreduce.Job:  map 48% reduce 0%
+18/11/18 17:37:52 INFO mapreduce.Job:  map 49% reduce 0%
+18/11/18 17:38:12 INFO mapreduce.Job:  map 50% reduce 0%
+18/11/18 17:38:40 INFO mapreduce.Job:  map 51% reduce 0%
+18/11/18 17:39:01 INFO mapreduce.Job:  map 52% reduce 0%
+18/11/18 17:39:26 INFO mapreduce.Job:  map 53% reduce 0%
+18/11/18 17:39:51 INFO mapreduce.Job:  map 54% reduce 0%
+18/11/18 17:40:38 INFO mapreduce.Job:  map 55% reduce 0%
+18/11/18 17:41:10 INFO mapreduce.Job:  map 56% reduce 0%
+18/11/18 17:41:17 INFO mapreduce.Job:  map 57% reduce 0%
+18/11/18 17:41:53 INFO mapreduce.Job:  map 58% reduce 0%
+18/11/18 17:42:17 INFO mapreduce.Job:  map 59% reduce 0%
+18/11/18 17:42:39 INFO mapreduce.Job:  map 60% reduce 0%
+18/11/18 17:42:50 INFO mapreduce.Job:  map 61% reduce 0%
+18/11/18 17:43:18 INFO mapreduce.Job:  map 62% reduce 0%
+18/11/18 17:43:28 INFO mapreduce.Job:  map 63% reduce 0%
+18/11/18 17:44:13 INFO mapreduce.Job:  map 64% reduce 0%
+18/11/18 17:44:24 INFO mapreduce.Job:  map 65% reduce 0%
+18/11/18 17:44:27 INFO mapreduce.Job:  map 66% reduce 0%
+18/11/18 17:45:11 INFO mapreduce.Job:  map 67% reduce 0%
+18/11/18 17:45:47 INFO mapreduce.Job:  map 68% reduce 0%
+18/11/18 17:46:00 INFO mapreduce.Job:  map 69% reduce 0%
+18/11/18 17:46:31 INFO mapreduce.Job:  map 70% reduce 0%
+18/11/18 17:46:56 INFO mapreduce.Job:  map 71% reduce 0%
+18/11/18 17:47:22 INFO mapreduce.Job:  map 72% reduce 0%
+18/11/18 17:47:49 INFO mapreduce.Job:  map 73% reduce 0%
+18/11/18 17:48:12 INFO mapreduce.Job:  map 74% reduce 0%
+18/11/18 17:48:40 INFO mapreduce.Job:  map 75% reduce 0%
+18/11/18 17:49:14 INFO mapreduce.Job:  map 76% reduce 0%
+18/11/18 17:49:36 INFO mapreduce.Job:  map 77% reduce 0%
+18/11/18 17:49:50 INFO mapreduce.Job:  map 78% reduce 0%
+18/11/18 17:50:29 INFO mapreduce.Job:  map 79% reduce 0%
+18/11/18 17:50:43 INFO mapreduce.Job:  map 80% reduce 0%
+18/11/18 17:51:28 INFO mapreduce.Job:  map 81% reduce 0%
+18/11/18 17:51:34 INFO mapreduce.Job:  map 82% reduce 0%
+18/11/18 17:52:13 INFO mapreduce.Job:  map 83% reduce 0%
+18/11/18 17:52:31 INFO mapreduce.Job:  map 84% reduce 0%
+18/11/18 17:53:25 INFO mapreduce.Job:  map 85% reduce 0%
+18/11/18 17:53:40 INFO mapreduce.Job:  map 86% reduce 0%
+18/11/18 17:54:22 INFO mapreduce.Job:  map 87% reduce 0%
+18/11/18 17:55:00 INFO mapreduce.Job:  map 22% reduce 0%
+18/11/18 17:55:51 INFO mapreduce.Job:  map 23% reduce 0%
+18/11/18 17:56:59 INFO mapreduce.Job:  map 24% reduce 0%
+18/11/18 17:57:43 INFO mapreduce.Job:  map 25% reduce 0%
+18/11/18 17:58:38 INFO mapreduce.Job:  map 26% reduce 0%
+18/11/18 17:59:33 INFO mapreduce.Job:  map 27% reduce 0%
+18/11/18 18:00:21 INFO mapreduce.Job:  map 28% reduce 0%
+18/11/18 18:01:05 INFO mapreduce.Job:  map 29% reduce 0%
+18/11/18 18:01:49 INFO mapreduce.Job:  map 30% reduce 0%
+18/11/18 18:02:36 INFO mapreduce.Job:  map 31% reduce 0%
+18/11/18 18:03:28 INFO mapreduce.Job:  map 32% reduce 0%
+18/11/18 18:04:10 INFO mapreduce.Job:  map 33% reduce 0%
+18/11/18 18:04:50 INFO mapreduce.Job:  map 34% reduce 0%
+18/11/18 18:05:38 INFO mapreduce.Job:  map 35% reduce 0%
+18/11/18 18:06:24 INFO mapreduce.Job:  map 36% reduce 0%
+18/11/18 18:07:09 INFO mapreduce.Job:  map 37% reduce 0%
+18/11/18 18:07:54 INFO mapreduce.Job:  map 38% reduce 0%
+18/11/18 18:08:40 INFO mapreduce.Job:  map 39% reduce 0%
+18/11/18 18:09:25 INFO mapreduce.Job:  map 40% reduce 0%
+18/11/18 18:09:37 INFO mapreduce.Job:  map 41% reduce 0%
+18/11/18 18:10:22 INFO mapreduce.Job:  map 42% reduce 0%
+18/11/18 18:11:04 INFO mapreduce.Job:  map 43% reduce 0%
+18/11/18 18:11:52 INFO mapreduce.Job:  map 44% reduce 0%
+18/11/18 18:12:37 INFO mapreduce.Job:  map 45% reduce 0%
+18/11/18 18:13:28 INFO mapreduce.Job:  map 46% reduce 0%
+18/11/18 18:14:12 INFO mapreduce.Job:  map 47% reduce 0%
+18/11/18 18:14:58 INFO mapreduce.Job:  map 48% reduce 0%
+18/11/18 18:15:47 INFO mapreduce.Job:  map 49% reduce 0%
+18/11/18 18:16:32 INFO mapreduce.Job:  map 50% reduce 0%
+18/11/18 18:17:19 INFO mapreduce.Job:  map 51% reduce 0%
+18/11/18 18:18:12 INFO mapreduce.Job:  map 52% reduce 0%
+18/11/18 18:18:56 INFO mapreduce.Job:  map 53% reduce 0%
+18/11/18 18:19:38 INFO mapreduce.Job:  map 54% reduce 0%
+18/11/18 18:20:24 INFO mapreduce.Job:  map 55% reduce 0%
+18/11/18 18:21:12 INFO mapreduce.Job:  map 56% reduce 0%
+18/11/18 18:22:03 INFO mapreduce.Job:  map 57% reduce 0%
+18/11/18 18:22:49 INFO mapreduce.Job:  map 58% reduce 0%
+18/11/18 18:23:38 INFO mapreduce.Job:  map 59% reduce 0%
+18/11/18 18:24:32 INFO mapreduce.Job:  map 60% reduce 0%
+18/11/18 18:25:18 INFO mapreduce.Job:  map 61% reduce 0%
+18/11/18 18:26:06 INFO mapreduce.Job:  map 62% reduce 0%
+18/11/18 18:26:53 INFO mapreduce.Job:  map 63% reduce 0%
+18/11/18 18:27:44 INFO mapreduce.Job:  map 64% reduce 0%
+18/11/18 18:28:33 INFO mapreduce.Job:  map 65% reduce 0%
+18/11/18 18:29:22 INFO mapreduce.Job:  map 66% reduce 0%
+18/11/18 18:30:19 INFO mapreduce.Job:  map 67% reduce 0%
+18/11/18 18:31:10 INFO mapreduce.Job:  map 68% reduce 0%
+18/11/18 18:32:00 INFO mapreduce.Job:  map 69% reduce 0%
+18/11/18 18:32:45 INFO mapreduce.Job:  map 70% reduce 0%
+18/11/18 18:33:38 INFO mapreduce.Job:  map 71% reduce 0%
+18/11/18 18:34:24 INFO mapreduce.Job:  map 72% reduce 0%
+18/11/18 18:35:16 INFO mapreduce.Job:  map 73% reduce 0%
+18/11/18 18:36:07 INFO mapreduce.Job:  map 74% reduce 0%
+18/11/18 18:37:01 INFO mapreduce.Job:  map 75% reduce 0%
+18/11/18 18:37:53 INFO mapreduce.Job:  map 76% reduce 0%
+18/11/18 18:38:46 INFO mapreduce.Job:  map 77% reduce 0%
+18/11/18 18:39:37 INFO mapreduce.Job:  map 78% reduce 0%
+18/11/18 18:40:30 INFO mapreduce.Job:  map 79% reduce 0%
+18/11/18 18:41:21 INFO mapreduce.Job:  map 80% reduce 0%
+18/11/18 18:41:36 INFO mapreduce.Job:  map 81% reduce 0%
+18/11/18 18:42:29 INFO mapreduce.Job:  map 82% reduce 0%
+18/11/18 18:43:20 INFO mapreduce.Job:  map 83% reduce 0%
+18/11/18 18:44:13 INFO mapreduce.Job:  map 84% reduce 0%
+18/11/18 18:45:08 INFO mapreduce.Job:  map 85% reduce 0%
+18/11/18 20:18:55 INFO mapreduce.Job:  map 73% reduce 0%
+18/11/18 20:18:56 INFO mapreduce.Job:  map 0% reduce 0%
+18/11/18 20:19:43 INFO mapreduce.Job:  map 1% reduce 0%
+18/11/18 20:20:30 INFO mapreduce.Job:  map 2% reduce 0%
